@@ -9,6 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: Outlets
+    
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var phoneNumberField: UITextField!
+    @IBOutlet weak var postalCodeField: UITextField!
+    @IBOutlet weak var tableOfContacts: UITableView!
+    
+    
+    // MARK: Action Methods
+    
+    @IBAction func onAdd(_ sender: Any) {
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
