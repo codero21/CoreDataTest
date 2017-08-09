@@ -15,6 +15,8 @@
 		E306F0631F3AB94100B0251D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E306F0611F3AB94100B0251D /* LaunchScreen.storyboard */; };
 		E306F06E1F3AB94200B0251D /* CoreDataTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E306F06D1F3AB94200B0251D /* CoreDataTestTests.swift */; };
 		E306F0791F3AB94200B0251D /* CoreDataTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E306F0781F3AB94200B0251D /* CoreDataTestUITests.swift */; };
+		E306F0881F3ABFF500B0251D /* ContactData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E306F0861F3ABFF500B0251D /* ContactData+CoreDataClass.swift */; };
+		E306F0891F3ABFF500B0251D /* ContactData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E306F0871F3ABFF500B0251D /* ContactData+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E306F0741F3AB94200B0251D /* CoreDataTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E306F0781F3AB94200B0251D /* CoreDataTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTestUITests.swift; sourceTree = "<group>"; };
 		E306F07A1F3AB94200B0251D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E306F0861F3ABFF500B0251D /* ContactData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContactData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E306F0871F3ABFF500B0251D /* ContactData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContactData+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		E306F0491F3AB94100B0251D = {
 			isa = PBXGroup;
 			children = (
+				E306F0861F3ABFF500B0251D /* ContactData+CoreDataClass.swift */,
+				E306F0871F3ABFF500B0251D /* ContactData+CoreDataProperties.swift */,
 				E306F0541F3AB94100B0251D /* CoreDataTest */,
 				E306F06C1F3AB94200B0251D /* CoreDataTestTests */,
 				E306F0771F3AB94200B0251D /* CoreDataTestUITests */,
@@ -265,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E306F0881F3ABFF500B0251D /* ContactData+CoreDataClass.swift in Sources */,
 				E306F0581F3AB94100B0251D /* ViewController.swift in Sources */,
 				E306F05E1F3AB94100B0251D /* CoreDataTest.xcdatamodeld in Sources */,
 				E306F0561F3AB94100B0251D /* AppDelegate.swift in Sources */,
+				E306F0891F3ABFF500B0251D /* ContactData+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
